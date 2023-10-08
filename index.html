@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhotoPiX</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+       <nav>
+        <div class="logo">
+            Photo<span>pi</span>X
+        </div>
+        <div class="menu" >
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Gallery</a>
+            <a href="">Contact</a>
+        </div>
+        <div class="icon">
+            <i class="bi bi-search"></i>    
+             <a href="">Login</a>
+        </div>
+       </nav>
+       <section class="h-text" >
+        <i class="bi bi-camera-fill" id="camera" ></i>
+        <h1 data-aos="fade-up" >Capturing the moments that captivate your heart.</h1>
+        <input type="text" placeholder="Search here...">
+        <button><i class="bi bi-search"></i></button>
+       </section> 
+    </header>
+    <section  class="fillter-gallery" >
+        <div class="portfolio-menu"    data-aos="fade-down" data-aos-offset="10"   >
+            <ul>
+                <li  class="active" data-fillter="*" >All</li>
+                <li  data-fillter=".nature" >Nature</li>
+                <li  data-fillter=".fashion">Fashion</li>
+                <li  data-fillter=".wedding">Wedding</li>
+            </ul>
+        </div>
+      <div class="portfolio-item"  >
+      <div class="item nature" data-aos="flip-left" data-aos-offset="100"  data-aos-delay="100">
+        <img src="./photopix/p1.jpg"  height="100px"  width="100px"  alt="">
+      </div>
+      <div class="item fashion"data-aos="flip-left" data-aos-offset="200"  data-aos-delay="100" >
+        <img src="./photopix/p2.jpg"  height="100px"  width="100px"  alt="">
+      </div>
+      <div class="item wedding" data-aos="flip-left" data-aos-offset="300"  data-aos-delay="100">
+        <img src="./photopix/p3.jpg"  height="100px"  width="100px"  alt="">
+      </div>
+      <div class="item nature"data-aos="zoom-in" data-aos-offset="100"  data-aos-delay="100" >
+        <img src="./photopix/p4.jpg"  height="100px"  width="100px"  alt="">
+      </div>
+      <div class="item fashion" data-aos="zoom-in" data-aos-offset="200"  data-aos-delay="100">
+        <img src="./photopix/p5.jpg"  height="100px"  width="100px"  alt="">
+      </div>
+      <div class="item wedding" data-aos="zoom-in" data-aos-offset="300"  data-aos-delay="100">
+        <img src="./photopix/p6.jpg"  height="100px"  width="100px"  alt="">
+      </div>
+      <div class="item nature" data-aos="zoom-in-up" data-aos-offset="100"  data-aos-delay="100" >
+        <img src="./photopix/p7.jpg"  height="100px"  width="100px"  alt="">
+      </div>
+      <div class="item fashion"  data-aos="zoom-in-up" data-aos-offset="200"  data-aos-delay="100">
+        <img src="./photopix/p8.jpg"  height="100px"  width="100px"  alt="">
+      </div>
+      <div class="item wedding"  data-aos="zoom-in-up" data-aos-offset="300"  data-aos-delay="100">
+        <img src="./photopix/p9.jpg"  height="100px"  width="100px"  alt="">
+      </div>
+      </div>
+    </section>
+    <section  class="member"  >
+     <div class="member-info" data-aos="zoom-in-up" data-aos-offset="100"  data-aos-delay="100">
+      <h1>Our  <span> Information</span></h1>
+      <p>What our members says</p>
+     </div>
+     <div class="member-card"  data-aos="zoom-in-down" data-aos-offset="100"  data-aos-delay="200">
+     <img src="./photopix/member.png" alt="">
+     <p>From Gujranwala. doing gym is good for healthy life.it helps our body to fit.it release stress from our mind.</p>
+     <h2>*Maria sharapova</h2>
+     <img src="./photopix/icon1.png"  width="100px" alt="">
+     <img src="./photopix/icon2.png"  width="100px" alt="">
+     <img src="./photopix/icon3.png"  width="100px" alt="">
+     <img src="./photopix/icon4.png"  width="100px" alt="">
+     </div>
+     <div  class="m-images"   data-aos="zoom-in" data-aos-offset="100"  data-aos-delay="300">
+      <img src="./photopix/s1.jpg" alt="">
+      <img src="./photopix/s2.jpg" alt="">
+      <img src="./photopix/s3.jpg" alt="">
+      <img src="./photopix/s4.jpg" alt="">
+      <img src="./photopix/s5.jpg" alt="">
+      <img src="./photopix/s6.jpg" alt="">
+
+     </div>
+
+    </section> 
+    <footer>
+      <div  class="newsletter" >
+         <div data-aos="fade-up" data-aos-offset="200">
+           <h1>Subscribe Our newsletter</h1>
+           <p>We're a team of non-cynics who truely care of our work.</p>
+          </div>        
+           <div  class="ntext"   data-aos="fade-up-right" data-aos-offset="200">
+            <label for="">
+              <input type="text" placeholder="Enter  your Email">
+              <button>Subscribe</button>
+            </label>
+           </div>
+      </div>
+      <div  class="f-contact"  data-aos="zoom-in" data-aos-offset="200"  >
+       <div>
+        <h1>Information</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, velit!</p>
+        <i class="bi bi-whatsapp"></i>
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-telegram"></i>
+        <i class="bi bi-twitter"></i>
+        </div>
+       <div>
+        <h1>Usefull Links</h1>
+        <p>About Us</p>
+        <p>Gallery</p>
+        <p>Blog posts</p>
+        <p>Pricing Plan</p>
+       </div>
+       <div>
+        <h1>Details</h1>
+        <p>Photographer</p>
+        <p>Gallery</p>
+        <p>About</p>
+        <p>Pricing Plan</p></div>
+       <div>
+        <h1>Help & Support</h1>
+        <p>Privacy Policy </p>
+        <p>Technical Support</p>
+        <p>Terms & Condition</p>
+        <p>Customer care</p>
+       </div>
+
+      </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+<script  type="text/javascript">
+  $('.portfolio-item').isotope({
+  // options
+  itemSelector: '.item',
+  layoutMode: 'fitRows'
+});
+$('.portfolio-menu ul li').click(function(){
+  $('.portfolio-menu ul li') .removeClass('active');
+  $(this).addClass('active');
+  var selector = $(this).attr('data-fillter');
+  $('.portfolio-item').isotope({
+    filter:selector
+  });
+  return false;
+
+});
+</script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</body>
+</html>
